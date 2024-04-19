@@ -1,2 +1,3 @@
-![Screenshot (2)](https://github.com/Lindel2011/Novabot.Builds/assets/86674739/3b1613f3-e7ec-4919-a062-cb0e0ba7669d) this is the ui in mit app inventer
+intro:
+Novamobile is a bluetooth controlled car that can go to places where humans cannot go. It is powered by an ESP32 L293D microcontroller which helps coordinate the motors. It is equipped with MQ8 and MQ9 gas sensors which detect hydrogen and LPG, carbon monoxide, and methane respectively. 
 
