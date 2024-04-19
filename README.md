@@ -55,3 +55,8 @@ Implementation effectiveness
 Creativity and originality
 Problem-solving effectiveness
 Progress and consistent GitHub check-ins
+
+
+
+Brief on our project:
+Introducing NovaMobile, which can go 
