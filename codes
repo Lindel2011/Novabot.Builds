@@ -1,1 +1,29 @@
 
+#define DO_PIN 8      // Arduino's pin connected to DO pin of the MQ2 sensor
+ // Arduino's pin connected to a relay
+
+void setup() {
+  // Initialize serial communication
+  Serial.begin(9600);
+
+  // Initialize the Arduino's pin as an input
+  pinMode(DO_PIN, INPUT);
+
+
+  // Warm up the MQ2 sensor (wait for 20 seconds)
+  Serial.println("Warming up the MQ2 sensor");
+  delay(2000);
+}
+
+void loop() {
+  // Read the digital output pin of the sensor
+  int gasState = digitalRead(DO_PIN);
+
+  if (gasState == HIGH) {
+    Serial.println(" dangerous gas is NOT present");
+  
+  } else {
+    Serial.println(" gas is present");
+    
+  }
+}
